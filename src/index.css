@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.slick-arrow
+{
+    /* background-color: black !important; */
+    z-index: 99 !important;
+}
+.slick-prev
+{
+    left: 1rem !important;
+}
+button.slick-arrow.slick-prev::before{
+    color: darkblue !important;
+    /* border: 50% !important; */
+}
+.slick-next {
+    right: 1rem !important;
+}
+button.slick-arrow.slick-next::before
+{
+    color: darkblue !important;
+}
+.slick-dots 
+{
+    display: none !important;
+}
+
+header{
+    
+    width: 100%;   
+     
+    
+} 
+
+.rk-nav_container{
+    max-width: 1500px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 1.69rem;
+     margin : 0 auto !important;
+}
+@media(max-width:550px){
+    .rk-nav_container{
+        
+        justify-content: center;
+        margin-bottom: 1.25px;
+    }
+}
+.rkm{
+    margin: 00.35rem;
+    font-size: 14px;
+    font-weight: bold;
+}
+.fa-mobile{
+    font-size: 35px !important;
+}
+.rk-logo_container{
+    
+    padding: 0.25rem;
+      
+    background-color: white;
+}
+.rk-medical-a-tag{
+    
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+   
+}
+.rk-medical-a-tag:hover{
+
+    cursor: pointer;
+}
+.rk-logo_container img{
+   width: 34px;
+   height: 34px;
+    background-color: white;
+  
+}
+.rk-left-upperNav{
+    display: flex;
+    align-items: center;
+    
+}
+.navigations{
+    text-decoration: none;
+    color: black;
+    margin: 0 0.25rem;
+}
+.marginT
+{
+    margin: 0rem 1rem !important;
+    padding: 0 .25rem !important;
+}
