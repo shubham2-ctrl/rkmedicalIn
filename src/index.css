@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
     box-sizing: border-box;
     margin: 0 !important;
     padding: 0 !important;
+    font-family: 'Poppins', sans-serif;
+    
 }
 .slick-arrow
 {
@@ -53,6 +56,7 @@ header{
 }
 .rkm{
     margin: 00.35rem;
+    margin-right: 0.35rem !important;
     font-size: 14px;
     font-weight: bold;
 }
@@ -97,4 +101,222 @@ header{
 {
     margin: 0rem 1rem !important;
     padding: 0 .25rem !important;
+}
+.navbar_lower
+{
+    background-color: black;
+}
+.home_bar
+{
+    background-color: yellow;
+    display: flex;
+    list-style: none;
+}
+.home_bar li {
+    margin: 0 1rem !important;
+}
+
+.innerDiv-lowerNav{
+    width: 100% !important;
+
+    
+}
+.theme-color{
+    background-color: rgb(6, 6, 90) !important;
+}
+.navbar{
+    max-width: 1500px !important;
+    margin: 0 auto  !important;
+    min-height: 2.1rem !important;
+    
+}
+.btn-primary{
+    background-color: rgb(6, 6, 90) !important;
+    border-color: rgb(6, 6, 90) !important;
+}
+.btn-primary:focus ,
+.primary.dropdown-toggle:focus,
+.btn-primary:active{
+    border-color: rgb(6, 6, 90) !important;
+    background-color: rgb(6, 6, 90) !important;
+    box-shadow: none !important;
+}
+.dropdown-menu :hover{
+    
+    background-color: rgb(6, 6, 90) !important;
+    color: white;
+}
+
+.dropdown-btn
+{
+    background-color: rgb(6, 6, 90) !important;
+    border: none !important;
+    border-color: none !important;
+}
+.margin_adj
+{
+    margin: 0 .24rem !important;
+}
+
+.nav_div
+{
+    display: flex !important ;
+    justify-content: space-around !important;
+}
+.nav-item
+{
+    margin: 0 1rem !important;
+}
+.category_align , .brand_align{
+    max-width: 1500px;
+    margin: 0 auto !important;
+    
+}
+
+.category_align .slick-arrow.slick-prev::before, .category_align .slick-arrow.slick-next::before
+{
+    color: white !important;
+    font-size: 2rem !important;
+  
+}
+
+.brand_align .slick-arrow.slick-prev::before, .brand_align .slick-arrow.slick-next::before
+{
+    color: rgb(14, 6, 92) !important;
+    font-size: 2rem !important;
+  
+}
+.footer_main{
+    width: 100% !important;
+    padding-bottom: 2rem !important;
+}
+.main_about-Us {
+    width: 100%;
+    padding: 1rem !important;
+}
+
+.footer_container , .div_about-Us {
+    max-width: 1500px ;
+    margin: 0 auto !important;
+}
+
+.dropdown-item:hover {
+    color: white !important;
+    padding: 0 0.25rem !important;
+}
+
+
+@media (min-width: 60rem){
+    .store-component{
+        width: 1500px !important;
+    
+    }
+    
+}
+.newBody{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    height: 100% !important;
+    /* justify-content: center !important; */
+}
+/* .gallery-wrap .img-big-wrap img{
+    width: 100% !important;
+    height: auto !important;
+} */
+
+ul.thumb{
+    margin : 0 auto;
+    padding: 0;
+    float: left;
+
+}
+
+ul.thumb li{
+    list-style: none;
+    margin: 10px;
+}
+ul.thumb li img{
+    width: 80px;
+    height: 80px;
+    border : 1px solid grey;
+}
+.tabs{
+    width: 100% !important;
+    padding: 0 !important;
+    background-color: white;
+   
+}
+
+
+
+.padding-y{
+    padding-bottom: 1px !important;
+}
+
+
+.btn-my-custom{
+  
+    width: 80% !important;
+    height: auto  !important;
+    font-size: 25px !important;
+}
+
+.btn-my-customi{
+    background-color: #25D366 !important;
+   color: white  !important;
+    vertical-align: center !important;
+    width: 80% !important;
+    height: auto  !important;
+    font-size: 25px !important;
+    
+}
+
+.button_cover_div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#whatsapp{
+    background-color: #25D366 !important;
+    color: white !important;
+    font-size: 32px !important;
+}
+.img-wrap , .info-wrap{
+    padding: 0.25rem 1rem !important;
+}
+.img-wrap  img{
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+.section-content {
+    width: 100%;
+}
+.container {
+    padding: 2rem !important;
+    max-width: 1500px  !important;
+    margin: 0 auto !important;
+}
+.button_cover_div {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.product_desc {
+    padding-left: 3rem !important;
+    margin: 2rem 0 auto !important;
+}
+.content-body {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+.xzoom-gallery{
+    width: 90% !important;
+    height: 90% !important;
 }

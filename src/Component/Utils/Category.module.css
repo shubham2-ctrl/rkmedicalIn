@@ -1,0 +1,37 @@
+.category_section
+{
+    min-width: 100%;
+
+}
+.category_align
+{
+    max-width: 1500px;
+    margin: 0 auto !important;
+
+}
+.category_hyperlink
+{
+
+   padding: 0.5rem !important;
+}
+.category_hyperlink img {
+    width: 100%;
+    height: 100%;
+    
+}
+/* .category_align .slick-arrow.slick-prev::before
+{
+    color: yellow !important;
+    font-size: 2rem !important;
+} */
+.category_h
+{
+    font-weight: bolder;
+    padding: 1rem !important;
+}
+.brand_h
+{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 2rem;
+}

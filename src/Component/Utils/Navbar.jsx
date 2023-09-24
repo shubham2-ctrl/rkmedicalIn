@@ -1,3 +1,4 @@
+import logo from '../Assets/Images/Logo.png'
 const Navbar =  () =>
 {
 
@@ -5,15 +6,15 @@ const Navbar =  () =>
         <header>
          <nav class="rk-nav_container">
             <div class="rk-logo_container">
-                <a class="rk-medical-a-tag" href="{%url 'home'%}">
-                 <img src=" " alt="Logo"/>
+                <a class="rk-medical-a-tag" href="/">
+                 <img src={logo} alt="Logo"/>
                    <span class="rkm">  RK Medical Instruments </span>
                 </a>
             </div>
 
         <div class="rk-left-upperNav">
-             <i class="fa fa-mobile"> </i>
-           <span class="rkm"> 8340726651 </span> 
+             {/* <i class="fa fa-mobile px-2"> </i>
+           <span class="rkm" > 8340726651 </span>  */}
             <div class="input-group-append">
 			<form action=" " class="search" method = 'GET'>
 		  	<div class="input-group w-100">
